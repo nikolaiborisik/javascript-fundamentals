@@ -1,0 +1,32 @@
+{
+  "name": "javascript-fundamentals",
+  "version": "1.0.0",
+  "description": "Javascript fundamentals tasks",
+  "main": "index.js",
+  "scripts": {
+    "test1.1": "jest datatypes.test.js",
+    "test1.2": "jest function-basic.test.js",
+    "test1.3": "jest number.test.js",
+    "test1.4": "jest string.test.js",
+    "test2.1": "jest function-n-closure.test.js",
+    "test2.2": "jest this.test.js",
+    "test2.3": "jest prototype.test.js",
+    "test3.1": "jest object.test.js",
+    "test3.2": "jest array.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.18",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2"
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  }
+}
