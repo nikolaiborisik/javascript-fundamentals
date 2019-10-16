@@ -221,11 +221,11 @@ describe("Example", () => {
 - Создать ArticleList c двумя методами добавления статьи и получения количества статей с использованием прототипа
 - Создать класс Component c 3-мя методами setData(obj), getData() и render(). setData() должен сливать (merge) существующие данные с переданными.
   Пример: если текущие данные {name: 'Bob', msg: 'Hello'} то setData({name: 'Tom') то в this.data должно быть {name: 'Tom', msg: 'Hello'}
-  Метод getData() возвращает текущие данные. Метод render() должен вернуть пустую строку Унаследовать от Component GreetingsComponent
+  Метод getData() возвращает текущие данные. Метод render() должен вернуть пустую строку Унаследовать от Component UserComponent
   Переопределить метод render так, чтобы он возвращал строку `${msg}, ${name}!`, используя `this.data`. Eсли name null или undefined - вместо имени использовать guest.
-- Добавить два метода login и logout. Метод login в качестве имени устанавливает переданное значение. Logout вместо имени устанавливает null
-- Создать функцию extend(Child, Parent) для классового наследования Протестировать на классах Component и GreetingsComponent из предыдущего задания
-- Создать классы Component и GreetingsComponent, используя class declaration
+  Добавить два метода login и logout. Метод login в качестве имени устанавливает переданное значение. Logout вместо имени устанавливает null
+- Создать функцию extend(Child, Parent) для классового наследования Протестировать на классах Component и UserComponent из предыдущего задания
+- Создать классы Component и UserComponent, используя class declaration
 - Создать объект, используя в качестве прототипа другой объект через Object.create
 
 ## 3 Структуры данных
