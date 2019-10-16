@@ -103,6 +103,10 @@ describe("Example", () => {
 - [DevDocs](http://devdocs.io/javascript)
 - [JavaScript.info](http://javascript.info)
 
+# Как синхронизироваться с основным репозиторием
+- [Configuring a remote for a fork](https://help.github.com/en/articles/configuring-a-remote-for-a-fork)
+- [Syncing a fork](https://help.github.com/en/articles/syncing-a-fork)
+
 # Задания
 
 ## 1 Операторы и типы данных

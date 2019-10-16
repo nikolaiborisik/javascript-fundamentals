@@ -1,4 +1,4 @@
-describe('Protype', () => {
+describe('Prototype', () => {
   it('Should use Function constructor without prototype', () => {
     // TODO: implement
     function User(name) {}

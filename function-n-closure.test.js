@@ -1,4 +1,4 @@
-describe('', () => {
+describe('Function and closure', () => {
   test('Should return  composition of two functions', () => {
     // DON'T CHANGE
     function add5(x) {
